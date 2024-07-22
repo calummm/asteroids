@@ -1,0 +1,24 @@
+{
+  "name": "asteroids",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && npm run build:cp-public",
+    "build:cp-public": "cp ./public/** ./dist",
+    "type": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calummm/asteroids.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calummm/asteroids/issues"
+  },
+  "homepage": "https://github.com/calummm/asteroids#readme",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  }
+}
